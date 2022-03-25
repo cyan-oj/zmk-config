@@ -23,7 +23,7 @@
                         &kp LALT &mo LOWER &kp BSPC &kp SPACE &kp RET  &kp RGUI &kp RCTRL &tog LOWER
 			>;
 
-			//sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN>;
+			sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN>;
 		};
 
 		lower_layer {
@@ -36,7 +36,7 @@
                                      &trans       &trans       &kp COMMA  &kp SPACE &kp RET  &kp KP_N0  &kp KP_DOT   &trans
 			>;
 
-			//sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN>;
+			sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN>;
 		};
 
 //		raise_layer {
